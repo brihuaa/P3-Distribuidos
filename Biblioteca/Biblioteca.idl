@@ -1,0 +1,11 @@
+module Biblioteca {
+  interface GestionBiblioteca {
+    string obtenerLibro(in string titulo);
+    void agregarLibro(in string titulo, in string autor);
+
+    // NUEVAS FUNCIONES (puedes usar estas o crear las tuyas):
+    void eliminarLibro(in string titulo);
+    string buscarPorAutor(in string autor);
+
+  };
+};
